@@ -1,6 +1,6 @@
 # pcf-automation-gcp-paving
 
-This repo contains a concourse pipeline and tasks to automatically deploy Pivotal Application Services on GCP, including paving the environment using Terraform.
+This repo contains a Concourse pipeline and tasks to automatically deploy Pivotal Application Services on GCP, including paving the environment using Terraform.
 It is mostly meant to be used for testing, as credentials handling could be improved.
 It is using [terraforming-gcp](https://github.com/pivotal-cf/terraforming-gcp) and [Platform Automation](http://docs-platform-automation.cfapps.io/platform-automation/v2.0/index.html) to do so.
 
@@ -14,13 +14,13 @@ It is using [terraforming-gcp](https://github.com/pivotal-cf/terraforming-gcp) a
   * PCF Metrics
   * MySQL
 
-# Reqirements
+# Requirements
 
 * GCP account
 * Pivotal Network account
 * Private Git Repository
-* three private GCS Buckets
-* concourse
+* three private GCS Buckets (these need to be created manually)
+* Concourse
 * a (sub-)domain hosted on GCP
 
 # Credentials
